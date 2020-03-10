@@ -11,5 +11,5 @@
 ;;
 ;; ----------------------------------------------------------------------------
 
-(define (string-delete S i)
-  (string-append (substring S 0 i) (substring S (+ i 1) )))
+(define (string-delete s i)
+  (string-append (substring s 0 i) (substring s (+ i 1))))

@@ -8,7 +8,6 @@
 ;; with "_" in between. See exercise 2 for ideas. 
 ;;
 ;; ----------------------------------------------------------------------------
-(define (string-join
-         Y X )
- (string-append
-  Y "_" X ) )
+
+(define (string-join y x)
+ (string-append y "_" x))

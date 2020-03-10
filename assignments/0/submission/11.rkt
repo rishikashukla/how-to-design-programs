@@ -14,5 +14,4 @@
 ;distance from origin=
 ; (sqrt (+ (sqr x) (sqr y)))
 (define (f x y)
-  (sqrt (+ (sqr x)
-       (sqr y))))
+  (sqrt (+ (sqr x) (sqr y))))

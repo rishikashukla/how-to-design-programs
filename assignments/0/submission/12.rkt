@@ -16,10 +16,10 @@
 ;; ----------------------------------------------------------------------------
 ; volume of the cube
 (define (cvolume a)
- (* a(* a a)))
+  (* a (* a a)))
 
 ;-----------------
 
 ; surface of the cube
 (define (csurface a)
-  (* a 6))
+  (* (sqr a) 6))

@@ -7,7 +7,11 @@
 ;; ith position from str. Clearly this expression creates a shorter string than
 ;; the given one. Which values for i are legitimate?
 ;; -----------------------------------------------------------------------------
-(define i1 1)
 
-(string-append (substring idx 0 i1) (substring idx (+ i1 1)))
+(define i1 3)
+(define str "abcdef")
+(define idx "0123456789")
+
+(string-append (substring str 0 i1)
+               (substring str (+ i1 1)))
 

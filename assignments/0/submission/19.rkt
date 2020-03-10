@@ -10,6 +10,6 @@
 ;; Ponder how string-insert copes with "". 
 ;;
 ;; ----------------------------------------------------------------------------
-(define (string-insert
-         S i)
-(string-append (substring S 0 i) "_"(substring S i )))
+
+(define (string-insert s i)
+  (string-append (substring s 0 i) "_" (substring s i)))

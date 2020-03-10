@@ -24,12 +24,13 @@
 ;; -----------------------------------------------------------------------------
 (define sunny #true)
 (define friday #false)
+
 (and (not #true) (not #false))
 
 (or (not #true) (not #false ))
 (and ( #true) (not  #false))
-(and (not #true) ( #false))
-(and (#true) ( #false))
-(or (#true) (not  #false))
-(or (not #true) ( #false))
-(or (#true) ( #false))
+; (and (not #true) ( #false))
+; (and (#true) ( #false))
+; (or (#true) (not  #false))
+; (or (not #true) ( #false))
+; (or (#true) ( #false))

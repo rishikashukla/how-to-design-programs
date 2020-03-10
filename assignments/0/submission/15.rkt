@@ -12,8 +12,23 @@
 ;; ----------------------------------------------------------------------------
 
 (define (==> sunny
-          friday )
+             friday )
   
-  (if(or (not sunny )
-         friday)
-     #true #false))
+  (if (or (not sunny)
+          friday)
+      #true
+      #false))
+
+
+
+#|
+(if X #true #false) == #true if x is #true
+(if X #true #false) == #flse if x is #false
+
+
+
+(if X #true #false) == x
+|#
+
+(define (==>.v2 sunny friday)
+  (or (not sunny) friday))

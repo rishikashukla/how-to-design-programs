@@ -12,9 +12,8 @@
 ;; ----------------------------------------------------------------------------
 (require 2htdp/image)
 
-(define (image-classify
-         X)
-  (if (> (image-height X)(image-width X))
+(define (image-classify x)
+  (if (> (image-height x) (image-width x))
       "tall"
-      (if (< (image-height X)(image-width X))
+      (if (< (image-height x)(image-width x))
           "wide" "square")))

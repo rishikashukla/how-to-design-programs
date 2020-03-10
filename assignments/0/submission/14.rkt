@@ -8,5 +8,6 @@
 ;; non-empty string. 
 ;;
 ;; ----------------------------------------------------------------------------
-(define (string-last S)
-  (substring S 0 (- (string-length S) 1)))
+
+(define (string-last s)
+  (substring s 0 (- (string-length s) 1)))
